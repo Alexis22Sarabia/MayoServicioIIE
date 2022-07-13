@@ -19,6 +19,7 @@ public class ProductoController {
 	@RequestMapping("/listar")
 	public @ResponseBody List<Productos> listar()  {
 		return service.listarProductos();
+		
 	}
 	
 }
